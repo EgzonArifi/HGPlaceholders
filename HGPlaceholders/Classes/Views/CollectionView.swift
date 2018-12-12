@@ -150,7 +150,6 @@ open class CollectionView: UICollectionView {
         if theDataSource is PlaceholderDataSourceDelegate {
             // Placeholder configuration
             alwaysBounceVertical = placeholdersAlwaysBounceVertical
-            collectionViewLayout = placeholderLayout
         } else {
             // default configuration
             alwaysBounceVertical = defaultAlwaysBounceVertical
